@@ -923,7 +923,7 @@ ItemDisplay[RUNETIER>14]: %RUNENAME% %WHITE%[%RUNETIER%]
 //Hide everything else for FILTERLVL=5
 ItemDisplay[FILTERLVL>4 !FILTERLVL=6 ((NMAG !RW) OR !ID)]:
 
-ItemDisplay[tsc TPSCROLLS<11]: %BLUE%°%GRAY%tp
+ItemDisplay[tsc TPSCROLLS<20]: %BLUE%°%GRAY%tp
 
 /////////////////////////////
 //FILTERLVL = 4 [No Pots]
@@ -1164,7 +1164,7 @@ ItemDisplay[CL3 NMAG !RW !ETH RES>9 (SOCK=0 OR SOCK=3 OR SOCK=4) CLVL<41]: %NAME
 ItemDisplay[CL3 NMAG !RW ED>60 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %NAME%
 
 //Consumables
-ItemDisplay[isc IDSCROLLS<6 CLVL<50]: %RED%°%GRAY%id
+ItemDisplay[isc IDSCROLLS<1 CLVL<50]: %RED%°%GRAY%id
 ItemDisplay[vps CLVL<10]: %WHITE%°%GRAY%stam
 ItemDisplay[isc]:
 ItemDisplay[vps]:
