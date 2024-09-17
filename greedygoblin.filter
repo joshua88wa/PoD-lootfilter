@@ -69,7 +69,7 @@ ItemDisplay[bey]: <<BoxStyle>> %PURPLE%Baal's Eye
 ItemDisplay[mbr]: <<BoxStyle>> %PURPLE%Mephisto's Brain
 
 //Utility
-ItemDisplay[tsc CLVL<10]: <<BoxStyle>> %BLUE%!%WHITE%Scroll
+ItemDisplay[tsc TPSCROLLS<20]: <<BoxStyle>> %BLUE%!%WHITE%Scroll
 ItemDisplay[isc CLVL<10]: <<BoxStyle>> %RED%!%WHITE%Scroll
 ItemDisplay[tsc]:
 ItemDisplay[isc]:
