@@ -212,6 +212,10 @@ ItemDisplay[gcb]:
 ItemDisplay[gcy]:
 ItemDisplay[skc]:
 
+//Gamble Notification
+ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: %NOTIFY(ITEM)%%NAME%
+ItemDisplay[(dgr) NMAG ILVL=1 CLVL=11]: %NOTIFY(ITEM)%%NAME% %GOLD%Gull%WHITE% Chance
+
 ////Runewords
 
 ItemDisplay[RW]: <<BoxStyle>> %NAME%
@@ -797,7 +801,3 @@ ItemDisplay[MAG cm1 !ID]: <<HighlightStyle>> %BLUE%Small Charm%WHITE%[%ORANGE%%I
 ItemDisplay[MAG cm2 !ID FILTERLVL<3]: <<BoxStyle>> %BLUE%Large Charm
 ItemDisplay[MAG cm2 !ID] :
 ItemDisplay[MAG cm3 !ID]: <<HighlightStyle>> %BLUE%Grand Charm%WHITE%[%ORANGE%%ILVL%%WHITE%] 
-
-//Gamble Notification
-ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: %NOTIFY(ITEM)%%NAME%
-ItemDisplay[(dgr) NMAG ILVL=1 CLVL=11]: %NOTIFY(ITEM)%%NAME% %GOLD%Gull%WHITE% Chance
