@@ -84,7 +84,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[vps FILTERLVL<3]: <<BoxStyle>> %GREEN%!%WHITE%Stamina
+ItemDisplay[vps FILTERLVL<2 AND CLVL<15]: <<BoxStyle>> %GREEN%!%WHITE%Stamina
 ItemDisplay[vps]:
 
 //Craft
@@ -96,25 +96,25 @@ ItemDisplay[aq2 MAG !ID]:
 ItemDisplay[cq2 MAG !ID]:
 
 //RUNES
-ItemDisplay[r01]: <<BoxStyle>> %TAN%El 1
-ItemDisplay[r02]: <<BoxStyle>> %TAN%Eld 2
-ItemDisplay[r03]: <<BoxStyle>> %TAN%Tir 3 
-ItemDisplay[r04]: <<BoxStyle>> %TAN%Nef 4
-ItemDisplay[r05]: <<BoxStyle>> %TAN%Eth 5
-ItemDisplay[r06]: <<BoxStyle>> %TAN%Ith 6
-ItemDisplay[r07]: <<BoxStyle>> %TAN%Tal 7
-ItemDisplay[r08]: <<BoxStyle>> %TAN%Ral 8
-ItemDisplay[r09]: <<BoxStyle>> %TAN%Ort 9
-ItemDisplay[r10]: <<BoxStyle>> %TAN%Thul 10
-ItemDisplay[r11]: <<BoxStyle>> %TAN%Amn 11
-ItemDisplay[r12]: <<BoxStyle>> %TAN%Sol 12
-ItemDisplay[r13]: <<BoxStyle>> %TAN%Shael 13 
-ItemDisplay[r14]: <<BoxStyle>> %TAN%Dol 14 
-ItemDisplay[r15]: <<BoxStyle>> %TAN%Hel 15
-ItemDisplay[r16]: <<BoxStyle>> %TAN%io 16
-ItemDisplay[r17]: <<BoxStyle>> %TAN%Lum 17
-ItemDisplay[r18]: <<BoxStyle>> %TAN%Ko 18
-ItemDisplay[r19]: <<BoxStyle>> %TAN%Fal 19
+ItemDisplay[r01]: <<AlertStyle>> %TAN%El 1
+ItemDisplay[r02]: <<AlertStyle>> %TAN%Eld 2
+ItemDisplay[r03]: <<AlertStyle>> %TAN%Tir 3 
+ItemDisplay[r04]: <<AlertStyle>> %TAN%Nef 4
+ItemDisplay[r05]: <<AlertStyle>> %TAN%Eth 5
+ItemDisplay[r06]: <<AlertStyle>> %TAN%Ith 6
+ItemDisplay[r07]: <<AlertStyle>> %TAN%Tal 7
+ItemDisplay[r08]: <<AlertStyle>> %TAN%Ral 8
+ItemDisplay[r09]: <<AlertStyle>> %TAN%Ort 9
+ItemDisplay[r10]: <<AlertStyle>> %TAN%Thul 10
+ItemDisplay[r11]: <<AlertStyle>> %TAN%Amn 11
+ItemDisplay[r12]: <<AlertStyle>> %TAN%Sol 12
+ItemDisplay[r13]: <<AlertStyle>> %TAN%Shael 13 
+ItemDisplay[r14]: <<AlertStyle>> %TAN%Dol 14 
+ItemDisplay[r15]: <<AlertStyle>> %TAN%Hel 15
+ItemDisplay[r16]: <<AlertStyle>> %TAN%io 16
+ItemDisplay[r17]: <<AlertStyle>> %TAN%Lum 17
+ItemDisplay[r18]: <<AlertStyle>> %TAN%Ko 18
+ItemDisplay[r19]: <<AlertStyle>> %TAN%Fal 19
 ItemDisplay[r20]: <<AlertStyle>> %NL%%PURPLE%LEM 20%NL%%NL%
 ItemDisplay[r21]: <<AlertStyle>> %NL%%PURPLE%PUL 21%NL%%NL%
 ItemDisplay[r22]: <<AlertStyle>> %NL% %PURPLE%UM 22%NL%%NL%
@@ -564,8 +564,8 @@ ItemDisplay[NMAG ED (EQ1 || EQ2 || EQ3 || EQ7)]: <<BoxStyle>> %GREEN%+%BLUE%%EDE
 ItemDisplay[NMAG ED WEAPON !WP4 !WP5 !WP6 !WP12 ETH]: <<BoxStyle>> %PURPLE%Eth %GREEN%+%BLUE%%EDAMAGE%%%DGREEN%dmg %GRAY%%BASENAME%%CONTINUE%
 ItemDisplay[NMAG ED (EQ1 || EQ2 || EQ3 || EQ7) ETH]: <<BoxStyle>> %PURPLE%Eth %DGREEN%+%BLUE%%EDEFENSE%%DGREEN%%%BLUE%def %GRAY%%BASENAME%%CONTINUE%
 ItemDisplay[NMAG (!ED || ED=0) ((WEAPON !WP4 !WP5 !WP6 !WP12) || EQ1 || EQ2 || EQ3 || EQ7) ETH]: <<BoxStyle>> %PURPLE%Eth %GRAY%%NAME%%CONTINUE%
-ItemDisplay[NMAG SOCKETS>1 FILTERLVL>2]: <<BoxStyle>> %WHITE%%NAME%%WHITE% [%GRAY%%SOCKETS%%WHITE%]%CONTINUE%
-ItemDisplay[NMAG SOCKETS>0 FILTERLVL<3]: <<BoxStyle>> %WHITE%%NAME%%WHITE% [%GRAY%%SOCKETS%%WHITE%]%CONTINUE%
+ItemDisplay[NMAG SOCKETS>1 FILTERLVL>2]: <<BoxStyle>> %WHITE%%NAME%%WHITE% [%PURPLE%+%GRAY%%SOCKETS%%WHITE%]%CONTINUE%
+ItemDisplay[NMAG SOCKETS>0 FILTERLVL<3]: <<BoxStyle>> %WHITE%%NAME%%WHITE% [%PURPLE%+%GRAY%%SOCKETS%%WHITE%]%CONTINUE%
 
 //Class 
 
