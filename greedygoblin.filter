@@ -213,8 +213,8 @@ ItemDisplay[gcy]:
 ItemDisplay[skc]:
 
 //Gamble Notification
-ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: %NOTIFY(ITEM)%%NAME%
-ItemDisplay[(dgr) NMAG ILVL=1 CLVL=11]: %NOTIFY(ITEM)%%NAME% %GOLD%Gull%WHITE% Chance
+ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
+//ItemDisplay[(dgr) NMAG ILVL=1 CLVL=11]: %NOTIFY(ITEM)%%NAME% %GOLD%Gull%WHITE% Chance
 
 ////Runewords
 
