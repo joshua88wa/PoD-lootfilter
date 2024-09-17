@@ -88,10 +88,10 @@ ItemDisplay[vps FILTERLVL<2 AND CLVL<15]: <<BoxStyle>> %GREEN%!%WHITE%Stamina
 ItemDisplay[vps]:
 
 //Gamble
-ItemDisplay[NMAG WEAPON ILVL=1]:
-ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
 ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
 ItemDisplay[dgr NMAG ILVL=1 CLVL=11]: <<AlertStyle>> %NAME%[%GOLD%Gull%WHITE% Chance]
+ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
+ItemDisplay[NMAG WEAPON ILVL=1]:
 
 //Craft
 
