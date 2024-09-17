@@ -87,6 +87,12 @@ ItemDisplay[gpl]:
 ItemDisplay[vps FILTERLVL<2 AND CLVL<15]: <<BoxStyle>> %GREEN%!%WHITE%Stamina
 ItemDisplay[vps]:
 
+//Gamble
+ItemDisplay[NMAG WEAPON ILVL=1]:
+ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
+ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
+ItemDisplay[dgr NMAG ILVL=1 CLVL=11]: <<AlertStyle>> %NAME%[%GOLD%Gull%WHITE% Chance]
+
 //Craft
 
 //Arrows etc
@@ -795,11 +801,5 @@ ItemDisplay[NMAG glv tsp]:
 //Charms //No large charms after 60
 ItemDisplay[MAG cm1 !ID]: <<HighlightStyle>> %BLUE%Small Charm%WHITE%[%ORANGE%%ILVL%%WHITE%] 
 ItemDisplay[MAG cm2 !ID FILTERLVL<3]: <<BoxStyle>> %BLUE%Large Charm
-ItemDisplay[MAG cm2 !ID] :
+ItemDisplay[MAG cm2 !ID]:
 ItemDisplay[MAG cm3 !ID]: <<HighlightStyle>> %BLUE%Grand Charm%WHITE%[%ORANGE%%ILVL%%WHITE%] 
-
-//Gamble
-ItemDisplay[WP5 NMAG ILVL=1]:
-ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
-ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
-ItemDisplay[dgr NMAG ILVL=1 CLVL=11]: <<AlertStyle>> %NAME%[%GOLD%Gull%WHITE% Chance]
