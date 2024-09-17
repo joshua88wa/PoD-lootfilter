@@ -91,7 +91,7 @@ ItemDisplay[vps]:
 ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
 ItemDisplay[dgr NMAG ILVL=1 CLVL=11]: <<AlertStyle>> %NAME%[%GOLD%Gull%WHITE% Chance]
 ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
-ItemDisplay[NMAG WEAPON ILVL=1]:
+ItemDisplay[NMAG WEAPON ILVL=1]: //Remove sell fodder highlight from gamble
 
 //Craft
 
