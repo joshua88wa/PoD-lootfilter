@@ -20,7 +20,7 @@ FilterLevel[10]: Shopping Alerts
 //Currently looking for
 ItemDisplay[NMAG EQ1 SOCKETS=2]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%CONTINUE%
 ItemDisplay[NMAG (WP7 OR WP8) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG (WP3 OR EQ3) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG ((WP3 !2hs) OR EQ3) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ2 SOCKETS=3]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Enlightenment Runeword]%NAME%%CONTINUE%
 
 //Gold
