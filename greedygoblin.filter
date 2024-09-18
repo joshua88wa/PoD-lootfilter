@@ -17,6 +17,12 @@ FilterLevel[8]: Unused
 FilterLevel[9]: Unused
 FilterLevel[10]: Shopping Alerts
 
+//Currently looking for
+ItemDisplay[NMAG EQ1 SOCKETS=2]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%CONTINUE%
+ItemDisplay[NMAG (WP7 OR WP8) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%CONTINUE%
+ItemDisplay[NMAG (WP3 OR EQ3) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%CONTINUE%
+ItemDisplay[NMAG EQ2 SOCKETS=3]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Enlightenment Runeword]%CONTINUE%
+
 //Gold
 ItemDisplay[GOLD<200 FILTERLVL=1]:
 ItemDisplay[GOLD<1000 FILTERLVL=2]:
@@ -91,7 +97,7 @@ ItemDisplay[vps]:
 ItemDisplay[(ci0 OR ci1) NMAG ILVL=1]: <<AlertStyle>> %NAME%
 ItemDisplay[dgr NMAG ILVL=1 CLVL=11]: <<AlertStyle>> %NAME%[%GOLD%Gull%WHITE% Chance]
 ItemDisplay[(rin OR amu) NMAG ILVL=1]: <<BoxStyle>> %NAME%
-ItemDisplay[NMAG WEAPON ILVL=1]: //Remove sell fodder highlight from gamble
+ItemDisplay[NMAG WEAPON ILVL=1 CLVL>11]: //Remove sell fodder highlight from gamble
 
 //Craft
 
