@@ -18,7 +18,7 @@ FilterLevel[9]: Unused
 FilterLevel[10]: Shopping Alerts
 
 //Two Handed Swords
-ItemDisplay[2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 || 9fb || 9gd || 72h || 7cm || 7gs || 7b7 || 7fb || 7gd]: [%GREEN%2hs%WHITE%]%NAME%%CONTINUE%%
+ItemDisplay[2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 || 9fb || 9gd || 72h || 7cm || 7gs || 7b7 || 7fb || 7gd]: [%RED%2hs%WHITE%]%NAME%%CONTINUE%%
 
 //One Handed Swords
 ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: [%GREEN%1hs%WHITE%]%NAME%%CONTINUE%
