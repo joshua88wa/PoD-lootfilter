@@ -18,10 +18,10 @@ FilterLevel[9]: Unused
 FilterLevel[10]: Shopping Alerts
 
 //Two Handed Swords
-ItemDisplay[2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 || 9fb || 9gd || 72h || 7cm || 7gs || 7b7 || 7fb || 7gd]: %WHITE%[%RED%2hs%WHITE%]%NAME%%CONTINUE%%
+ItemDisplay[NMAG 2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 || 9fb || 9gd || 72h || 7cm || 7gs || 7b7 || 7fb || 7gd]: %WHITE%[%RED%2hs%WHITE%]%NAME%%CONTINUE%%
 
 //One Handed Swords
-ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: %WHITE%[%GREEN%1hs%WHITE%]%NAME%%CONTINUE%
+ItemDisplay[NMAG ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: %WHITE%[%GREEN%1hs%WHITE%]%NAME%%CONTINUE%
 
 //Currently looking for
 ItemDisplay[NMAG EQ1 SOCKETS=2]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
