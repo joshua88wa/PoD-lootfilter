@@ -21,9 +21,11 @@ FilterLevel[10]: Shopping Alerts
 ItemDisplay[2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 || 9fb || 9gd || 72h || 7cm || 7gs || 7b7 || 7fb || 7gd]: %NAME%%WHITE%[%RED%2hs%WHITE%]%CONTINUE%
 
 //One Handed Swords
-ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: %NAME%%WHITE%[%GREEN%1hs%WHITE%]%CONTINUE%
+ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: %NAME%%WHITE%[%SAGE%1hs%WHITE%]%CONTINUE%
 
 //Currently looking for
+ItemDisplay[MAG xml]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[T2 Crafter Caster Shield]%NAME%%CONTINUE%
+ItemDisplay[MAG uml]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[T3 Crafter Caster Shield]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ1 SOCKETS=2 DEF>71]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
 ItemDisplay[NMAG (WP7 OR WP8) SOCKETS=4 !NORM]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ3 SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
