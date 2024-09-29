@@ -25,6 +25,7 @@ ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm |
 
 //Currently looking for
 ItemDisplay[NMAG SUP ETH (7vo OR 7wc OR 7s8) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG ETH xtp SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Treachery Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG (9cr OR 7cr) SOCKETS=4 !NORM]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ3 SOCKETS=2 DEF>126]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Splendor Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ1 SOCKETS=2 DEF>96]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
