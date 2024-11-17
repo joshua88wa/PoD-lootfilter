@@ -32,7 +32,7 @@ ItemDisplay[NMAG EQ3 SOCKETS>=2 DEF>50]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WH
 ItemDisplay[NMAG EQ1 SOCKETS>=2 DEF>20]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ2 SOCKETS>=3 DEF>20]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Enlightenment Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG EQ2 SOCKETS>=2 DEF>50]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Stealth Runeword]%NAME%%CONTINUE%
-ItemDisplay[WP13 MAG OR (NMAG SOCKETS>=1)]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Scepter]%NAME%%CONTINUE%
+ItemDisplay[MAG WP13 OR (NMAG WP13 SOCKETS>=1)]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Scepter]%NAME%%CONTINUE%
 
 //Gold
 ItemDisplay[GOLD<200 FILTERLVL=1]:
