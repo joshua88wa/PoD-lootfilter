@@ -24,7 +24,7 @@ ItemDisplay[2hs || clm || gis || bsw || flb || gsd || 92h || 9cm || 9gs || 9b9 |
 ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm || 9sb || 9fc || 9cr || 9bs || 9ls || 9wd || 7ss || 7sm || 7sb || 7fc || 7cr || 7bs || 7ls || 7wd]: %NAME%%WHITE%[%SAGE%1hs%WHITE%]%CONTINUE%
 
 //Currently looking for
-ItemDisplay[CHARGES("Warp")>0]: <<AlertStyle>> %NAME% %LIGHT_GRAY%+Warp Charges%WHITE%%CONTINUE%
+ItemDisplay[STORAGE(SHOP) CHARGES("Teleport")]: <<AlertStyle>> %NAME% %LIGHT_GRAY%+Teleport Charges%WHITE%%CONTINUE%
 ItemDisplay[NMAG (vou OR wsc OR scy OR 9vo OR 9wc OR 9s8 OR 7vo OR 7wc OR 7s8) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG ETH xtp SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Treachery Runeword]%NAME%%CONTINUE%
 ItemDisplay[NMAG (crs OR 9cr OR 7cr OR CL3) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
