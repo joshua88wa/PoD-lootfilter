@@ -25,14 +25,14 @@ ItemDisplay[ssd || scm || sbr || flc || crs || bsd || lsd || wsd || 9ss || 9sm |
 
 //Currently looking for
 ItemDisplay[CHARGES("Warp")>0]: <<AlertStyle>> %NAME% %LIGHT_GRAY%+Warp Charges%WHITE%%CONTINUE%
-ItemDisplay[NMAG (vou OR wsc OR scy) OR (9vo OR 9wc OR 9s8) OR (7vo OR 7wc OR 7s8) SOCKETS<=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG ETH xtp SOCKETS>=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Treachery Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG (crs OR 9cr OR 7cr OR CL3) SOCKETS>=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG EQ3 SOCKETS>=2 DEF>50]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Splendor Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG EQ1 SOCKETS>=2 DEF>20]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
-ItemDisplay[NMAG EQ2 SOCKETS>=3 DEF>20]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Enlightenment Runeword]%NAME%%CONTINUE%
-ItemDisplay[NMAG EQ2 SOCKETS>=2 DEF>50]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Stealth Runeword]%NAME%%CONTINUE%
-ItemDisplay[MAG WP13 OR (NMAG WP13 SOCKETS>=1)]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Scepter]%NAME%%CONTINUE%
+ItemDisplay[NMAG (vou OR wsc OR scy OR 9vo OR 9wc OR 9s8 OR 7vo OR 7wc OR 7s8) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Insight Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG ETH xtp SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Treachery Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG (crs OR 9cr OR 7cr OR CL3) SOCKETS=4]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Spirit Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG EQ3 SOCKETS=2 DEF>50]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Splendor Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG EQ1 SOCKETS=2 DEF>20]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Lore]%NAME%%CONTINUE%
+ItemDisplay[NMAG EQ2 SOCKETS=3 DEF>68]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Enlightenment Runeword]%NAME%%CONTINUE%
+ItemDisplay[NMAG EQ2 SOCKETS=2 DEF>80]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Stealth Runeword]%NAME%%CONTINUE%
+ItemDisplay[(MAG WP13 !ID) OR (MAG WP13 SOCKETS>=1) OR (NMAG WP13 SOCKETS>=1)]: <<AlertStyle>> %RED%#%GREEN%#%BLUE%#%WHITE%[Scepter]%NAME%%CONTINUE%
 
 //Gold
 ItemDisplay[GOLD<200 FILTERLVL=1]:
@@ -384,7 +384,6 @@ ItemDisplay[UNIQUE !ID amu]: <<AlertStyle>> %NL% %PURPLE%Amulet %NL%%NL%
 ItemDisplay[UNIQUE !ID jew]: <<AlertStyle>> %NL%%PURPLE%Rainbow Facet %NL%%NL%
 ItemDisplay[UNIQUE !ID cm3]: <<BoxStyle>> %GOLD%Gheed's Fortune
 ItemDisplay[SET !ID amu]: <<AlertStyle>> %NL%%GREEN%Amulet %NL%%NL%
-
 ItemDisplay[!ID (SET || UNIQUE)]: <<BoxStyle>> %NAME%
 ////Rares
 
@@ -545,7 +544,6 @@ ItemDisplay[ID(!NMAG)]: <<BoxStyle>> %NAME%
 ////Magic
 
 //Class
-
 ItemDisplay[MAG (CL1 || CL2 || CL3 || CL4) !ID]: <<BoxStyle>> %BLUE%%NAME%
 
 //Armor
@@ -554,6 +552,7 @@ ItemDisplay[MAG rin !ID]: <<BoxStyle>> %BLUE%%NAME%
 ItemDisplay[MAG jew !ID]: <<HighlightStyle>> %BLUE%JEWEL 
 ItemDisplay[MAG EQ7 !ID !ETH]: <<BoxStyle>> %BLUE%%NAME%
 ItemDisplay[MAG ARMOR !ID !ETH FILTERLVL<3]: <<BoxStyle>> %BLUE%%NAME%
+
 //Remove everything else
 ItemDisplay[MAG ARMOR !ID]:
 
@@ -570,6 +569,7 @@ ItemDisplay[MAG SIN !ID FILTERLVL<3]: <<BoxStyle>> %BLUE%%NAME%
 ItemDisplay[MAG SIN !ID FILTERLVL>2 PRICE>24999]: <<BoxStyle>> %WHITE[%TAN%%PRICE%%WHITE]
 ItemDisplay[MAG SOR !ID FILTERLVL<3]: <<BoxStyle>> %BLUE%%NAME%
 ItemDisplay[MAG SOR !ID FILTERLVL>2 PRICE>24999]: <<BoxStyle>> %WHITE[%TAN%%PRICE%%WHITE]
+
 //Remove everything else
 ItemDisplay[MAG WEAPON !ID]:
 
@@ -577,6 +577,7 @@ ItemDisplay[MAG WEAPON !ID]:
 ItemDisplay[NMAG SOCKETS=1 FILTERLVL>1]:
 ItemDisplay[NMAG(NORMAL) !CIRC !STORAGE(STASH) FILTERLVL=5]:
 ItemDisplay[NMAG(!ELITE) !CIRC !STORAGE(STASH) FILTERLVL=6]:
+
 //Styling for white items
 ItemDisplay[NMAG SUPERIOR !EQ4 !EQ5 !EQ6 (!ED || ED=0 || (WP12 ED>0))]: <<BoxStyle>> %WHITE%%BASENAME%%CONTINUE%
 ItemDisplay[NMAG SUPERIOR !EQ4 !EQ5 !EQ6 (!ED || ED=0 || (WP12 ED>0)) ETH]: <<BoxStyle>> %GRAY%%BASENAME%%CONTINUE%
@@ -591,7 +592,6 @@ ItemDisplay[NMAG SOCKETS>1 FILTERLVL>2]: <<BoxStyle>> %WHITE%%NAME%%WHITE%[%PURP
 ItemDisplay[NMAG SOCKETS>0 FILTERLVL<3]: <<BoxStyle>> %WHITE%%NAME%%WHITE%[%PURPLE%+%GRAY%%SOCKETS%%WHITE%]%CONTINUE%
 
 //Class 
-
 ItemDisplay[NMAG CL1 !INF FILTERLVL<4]: <<BoxStyle>> %WHITE%%NAME%
 ItemDisplay[NMAG CL1]:
 ItemDisplay[NMAG CL2 !INF FILTERLVL<4]: <<BoxStyle>> %WHITE%%NAME%
